@@ -1,0 +1,7 @@
+Total record count is : 19309
+IMEIs are all unique
+Count of Actuarial Valid is : 6948
+Record: 06/04/2018,20069202,1,Ilse,Hidalgo-Machorro,4T1BF1FK3EU394174,353466071848143,05/28/2018 08:24:39,05/28/2018 00:00:00,06/08/2018 21:28:33,2,2,0,460,1110,9,,31,0,19,,,,9,53,0,0,31,0,
+Failed rules: 
+Status: false
+File is invalid
