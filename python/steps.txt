@@ -1,0 +1,26 @@
+Local FS creation:
+/d2/data/apps/ubi/ingestion/octo
+/d2/data/apps/ubi/ingestion/octo/scripts
+/d2/data/apps/ubi/ingestion/octo/fileLists
+/d2/data/apps/ubi/ingestion/octo/temp
+/d2/data/apps/ubi/ingestion/octo/journeyext
+/d2/data/apps/ubi/ingestion/octo/journey
+/d2/data/apps/ubi/ingestion/octo/badFiles
+/d2/data/apps/ubi/ingestion/octo/logs
+
+hdfs dir:
+
+/data/ubi/ingestion/config
+/data/ubi/ingestion/journey
+
+steps:
+create above directories in local fs and hdfs on p01bdl133.ent.rt.csaa.com analytics cluster with ownership to svchdubire
+Places associated python scripts and jar files in /d2/data/apps/ubi/ingestion/octo/scripts dir
+run journeyScored.sql, ensure svchdubire has access to tables
+
+place rulesIngest.json in /data/ubi/ingestion
+place ruleEngine.conf in /data/ubi/ingestion/config
+
+run spark-submit --verbose --master yarn-client --conf spark.driver.memory=10G --conf spark.logLineage=true --conf spark.network.timeout=800 --class com.csaa.ati.services.createIndex --executor-cores 5 --queue adhoc --num-executors 1 --executor-memory 10G /d2/ubi/octoJourney/sonatina/ubi-journeyData-validation-assembly-1.0.jar "/data/ubi/ingestion/config/ruleEngine.conf" "/data/ubi/ingestion/rulesIngest.json" 
+
+spark-submit --verbose --master yarn-client --conf spark.driver.memory=10G --conf spark.logLineage=true --conf spark.network.timeout=800 --class com.csaa.ati.services.createIndex --executor-cores 5 --queue ubi --num-executors 1 --executor-memory 10G /d2/ubi/octoJourney/sonatina/ubi-journeyData-validation-assembly-1.0.jar "/user/xgh0ipon/ruleEngine.conf" "/user/xgh0ipon/rulesIngest.json"

@@ -1,0 +1,20 @@
+{"dataSet": "octoJourney","ruleType": "VALIDIMEI","enable": "true","severity": "High","errorDescription": "Device Identifier Type value invalid","resField1": "Device Identifier"}
+{"dataSet": "octoJourney","ruleType":"ISBLANK","enable":"true","severity":"High","errorDescription":"Device Identifier value is missing","resField1":"Device Identifier"}
+{"dataSet": "octoJourney","ruleType": "COMPARATOR_NUM","enable": "true","severity": "High","errorDescription": "JourneyId Invalid","resField1": "Journey ID","resOperator1": ">","resVal1": "0"}
+{"dataSet": "octoJourney","ruleType":"ISBLANK","enable":"true","severity":"High","errorDescription":"JourneyId is missing","resField1":"Journey ID"}
+{"dataSet": "octoJourney","ruleType": "COMPARATOR_NUM","enable": "true","severity": "Medium","errorDescription": "ENGINE_RPM value invalid","resField1": "ENGINE_RPM","resOperator1": "<","resVal1": "10000"}
+{"dataSet": "octoJourney","ruleType": "BETWEEN_INT","enable": "true","severity": "Medium","errorDescription": "Invalid Bearing Value","resField1": "BEARING","resVal1": "-1","resVal2": "360"}
+{"dataSet": "octoJourney","ruleType": "BETWEEN_INT","enable": "true","severity": "Medium","errorDescription": "InValid Vehicle speed","resField1": "VEHICLE_SPEED","resVal1": "0","resVal2": "280"}
+{"dataSet": "octoJourney","ruleType": "BETWEEN_FL","enable": "true","severity": "Medium","errorDescription": "LONGITUDE value in valid range","resField1": "LONGITUDE","resVal1": "-175","resVal2": "0"}
+{"dataSet": "octoJourney","ruleType":"ISBLANK","enable":"true","severity":"Medium","errorDescription":"LONGITUDE value is blank","resField1":"LONGITUDE"}
+{"dataSet": "octoJourney","ruleType": "BETWEEN_FL","enable": "true","severity": "Medium","errorDescription": "LATITUDE value in valid range","resField1": "LATITUDE","resVal1": "0","resVal2": "84"}
+{"dataSet": "octoJourney","ruleType":"ISBLANK","enable":"true","severity":"Medium","errorDescription":"LATITUDE value is blank","resField1":"LATITUDE"}
+{"dataSet": "octoJourney","ruleType": "TIMESTAMPFORMAT","enable": "true","severity": "High","errorDescription": "Timestamp Format invalid","resField1": "Timestamp"}
+{"dataSet": "octoJourney","ruleType": "VALIDLENGTH","enable": "true","severity": "High","errorDescription": "Timestamp length too long","resField1": "Timestamp","resVal1": "23"}
+{"dataSet": "octoJourney","ruleType": "ISBLANK","enable": "true","severity": "High","errorDescription": "Timestamp value is missing","resField1": "Timestamp"}
+{"dataSet": "octoJourney","ruleType": "BETWEEN_INT","enable": "true","severity": "Medium","errorDescription": "X_AVERAGE value in valid Range","resField1": "X_AVERAGE","resVal1": "-200","resVal2": "200"}
+{"dataSet": "octoJourney","ruleType": "ISBLANK","enable": "true","severity": "Medium","errorDescription": "X_AVERAGE value not blank or null or N/A","resField1": "X_AVERAGE"}
+{"dataSet": "octoJourney","ruleType": "BETWEEN_INT","enable": "true","severity": "Medium","errorDescription": "Y_AVERAGE value in valid Range","resField1": "Y_AVERAGE","resVal1": "-200","resVal2": "200"}
+{"dataSet": "octoJourney","ruleType": "ISBLANK","enable": "true","severity": "Medium","errorDescription": "Y_AVERAGE value not blank or null or N/A","resField1": "Y_AVERAGE"}
+{"dataSet": "octoJourney","ruleType": "BETWEEN_INT","enable": "true","severity": "Medium","errorDescription": "Z_AVERAGE value in valid Range","resField1": "Z_AVERAGE","resVal1": "-200","resVal2": "200"}
+{"dataSet": "octoJourney","ruleType": "ISBLANK","enable": "true","severity": "Medium","errorDescription": "Z_AVERAGE value not blank or null or N/A","resField1": "Z_AVERAGE"}
