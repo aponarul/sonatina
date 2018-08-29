@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="LXGCC5CG6515NN9" name="com.csaa.ati.test" tests="2" errors="0" failures="1" skipped="0" time="0.101">
+                     <properties>
+      <property name="jline.esc.timeout" value="0"/><property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/><property name="sun.boot.library.path" value="C:\Progra~1\Java\jre1.8.0_181\bin"/><property name="java.vm.version" value="25.181-b13"/><property name="java.vm.vendor" value="Oracle Corporation"/><property name="java.vendor.url" value="http://java.oracle.com/"/><property name="path.separator" value=";"/><property name="jna.loaded" value="true"/><property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/><property name="file.encoding.pkg" value="sun.io"/><property name="user.country" value="US"/><property name="user.script" value=""/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="sun.os.patch.level" value=""/><property name="jna.nosys" value="true"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="user.dir" value="C:\Users\gh0ipon\Desktop\sonatina\sonatina"/><property name="java.runtime.version" value="1.8.0_181-b13"/><property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/><property name="java.endorsed.dirs" value="C:\Progra~1\Java\jre1.8.0_181\lib\endorsed"/><property name="os.arch" value="amd64"/><property name="java.io.tmpdir" value="C:\Users\gh0ipon\AppData\Local\Temp\1\"/><property name="line.separator" value="
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="user.variant" value=""/><property name="os.name" value="Windows 10"/><property name="sun.jnu.encoding" value="Cp1252"/><property name="jnidispatch.path" value="C:\Users\gh0ipon\AppData\Local\Temp\1\jna--51401419\jna671823879722186579.dll"/><property name="java.library.path" value="C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\sbt\bin;C:\Program Files (x86)\scala\bin;C:\Users\gh0ipon\AppData\Local\Programs\Python\Python36-32\Scripts\;C:\Users\gh0ipon\AppData\Local\Programs\Python\Python36-32\;C:\Users\gh0ipon\AppData\Local\Microsoft\WindowsApps;C:\Users\gh0ipon\AppData\Local\GitHubDesktop\bin;."/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.class.version" value="52.0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="os.version" value="10.0"/><property name="user.home" value="C:\Users\gh0ipon"/><property name="user.timezone" value="America/Phoenix"/><property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/><property name="file.encoding" value="Cp1252"/><property name="java.specification.version" value="1.8"/><property name="sbt.log.format" value="true"/><property name="java.class.path" value="C:\Program Files (x86)\sbt\bin\sbt-launch.jar"/><property name="user.name" value="gh0ipon"/><property name="jline.shutdownhook" value="false"/><property name="java.vm.specification.version" value="1.8"/><property name="sun.java.command" value="xsbt.boot.Boot test"/><property name="java.home" value="C:\Progra~1\Java\jre1.8.0_181"/><property name="sun.arch.data.model" value="64"/><property name="user.language" value="en"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="awt.toolkit" value="sun.awt.windows.WToolkit"/><property name="java.vm.info" value="mixed mode"/><property name="java.version" value="1.8.0_181"/><property name="java.ext.dirs" value="C:\Progra~1\Java\jre1.8.0_181\lib\ext;C:\windows\Sun\Java\lib\ext"/><property name="sun.boot.class.path" value="C:\Progra~1\Java\jre1.8.0_181\lib\resources.jar;C:\Progra~1\Java\jre1.8.0_181\lib\rt.jar;C:\Progra~1\Java\jre1.8.0_181\lib\sunrsasign.jar;C:\Progra~1\Java\jre1.8.0_181\lib\jsse.jar;C:\Progra~1\Java\jre1.8.0_181\lib\jce.jar;C:\Progra~1\Java\jre1.8.0_181\lib\charsets.jar;C:\Progra~1\Java\jre1.8.0_181\lib\jfr.jar;C:\Progra~1\Java\jre1.8.0_181\classes"/><property name="java.vendor" value="Oracle Corporation"/><property name="sun.stderr.encoding" value="cp437"/><property name="file.separator" value="\"/><property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="sun.cpu.endian" value="little"/><property name="sun.stdout.encoding" value="cp437"/><property name="sun.desktop" value="windows"/><property name="sun.cpu.isalist" value="amd64"/>
+    </properties>
+                     <testcase classname="com.csaa.ati.test" name="check between integer function" time="0.03">
+                                                 
+                                               </testcase><testcase classname="com.csaa.ati.test" name="validate IMEI" time="0.071">
+                                                 <failure message="false did not equal true" type="org.scalatest.exceptions.TestFailedException">org.scalatest.exceptions.TestFailedException: false did not equal true
+	at org.scalatest.Assertions$class.newAssertionFailedException(Assertions.scala:528)
+	at org.scalatest.FunSuite.newAssertionFailedException(FunSuite.scala:1560)
+	at org.scalatest.Assertions$AssertionsHelper.macroAssert(Assertions.scala:501)
+	at com.csaa.ati.test$$anonfun$2.apply(test.scala:33)
+	at com.csaa.ati.test$$anonfun$2.apply(test.scala:33)
+	at org.scalatest.OutcomeOf$class.outcomeOf(OutcomeOf.scala:85)
+	at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)
+	at org.scalatest.Transformer.apply(Transformer.scala:22)
+	at org.scalatest.Transformer.apply(Transformer.scala:20)
+	at org.scalatest.FunSuiteLike$$anon$1.apply(FunSuiteLike.scala:186)
+	at org.scalatest.TestSuite$class.withFixture(TestSuite.scala:196)
+	at org.scalatest.FunSuite.withFixture(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$class.invokeWithFixture$1(FunSuiteLike.scala:183)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuiteLike$$anonfun$runTest$1.apply(FunSuiteLike.scala:196)
+	at org.scalatest.SuperEngine.runTestImpl(Engine.scala:289)
+	at org.scalatest.FunSuiteLike$class.runTest(FunSuiteLike.scala:196)
+	at org.scalatest.FunSuite.runTest(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuiteLike$$anonfun$runTests$1.apply(FunSuiteLike.scala:229)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:396)
+	at org.scalatest.SuperEngine$$anonfun$traverseSubNodes$1$1.apply(Engine.scala:384)
+	at scala.collection.immutable.List.foreach(List.scala:381)
+	at org.scalatest.SuperEngine.traverseSubNodes$1(Engine.scala:384)
+	at org.scalatest.SuperEngine.org$scalatest$SuperEngine$$runTestsInBranch(Engine.scala:379)
+	at org.scalatest.SuperEngine.runTestsImpl(Engine.scala:461)
+	at org.scalatest.FunSuiteLike$class.runTests(FunSuiteLike.scala:229)
+	at org.scalatest.FunSuite.runTests(FunSuite.scala:1560)
+	at org.scalatest.Suite$class.run(Suite.scala:1147)
+	at org.scalatest.FunSuite.org$scalatest$FunSuiteLike$$super$run(FunSuite.scala:1560)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuiteLike$$anonfun$run$1.apply(FunSuiteLike.scala:233)
+	at org.scalatest.SuperEngine.runImpl(Engine.scala:521)
+	at org.scalatest.FunSuiteLike$class.run(FunSuiteLike.scala:233)
+	at org.scalatest.FunSuite.run(FunSuite.scala:1560)
+	at org.scalatest.tools.Framework.org$scalatest$tools$Framework$$runSuite(Framework.scala:314)
+	at org.scalatest.tools.Framework$ScalaTestTask.execute(Framework.scala:480)
+	at sbt.TestRunner.runTest$1(TestFramework.scala:106)
+	at sbt.TestRunner.run(TestFramework.scala:117)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.$anonfun$apply$1(TestFramework.scala:262)
+	at sbt.TestFramework$.sbt$TestFramework$$withContextLoader(TestFramework.scala:233)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:262)
+	at sbt.TestFramework$$anon$2$$anonfun$$lessinit$greater$1.apply(TestFramework.scala:262)
+	at sbt.TestFunction.apply(TestFramework.scala:271)
+	at sbt.Tests$.$anonfun$toTask$1(Tests.scala:281)
+	at sbt.std.Transform$$anon$3.$anonfun$apply$2(System.scala:46)
+	at sbt.std.Transform$$anon$4.work(System.scala:66)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:263)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:16)
+	at sbt.Execute.work(Execute.scala:272)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:263)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:174)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:37)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+</failure>
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

@@ -1,0 +1,4 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mtest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- check between integer function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- validate IMEI *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  false did not equal true (test.scala:33)[0m[0m

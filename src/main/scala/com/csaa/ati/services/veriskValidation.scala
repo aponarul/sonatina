@@ -16,14 +16,14 @@ object veriskValidator {
 
   val sparkConf = new SparkConf().setAppName("sonatinaVeriskValidate").setMaster("local")
 
-  val file = new File("C:\\Users\\gh0ipon\\Desktop\\UBI\\verisk\\20180604_output.txt")
+  val file = new File("C:\\Users\\gh0ipon\\Desktop\\verisk\\20180820_output.txt")
   var track = 0
 
   def main(args: Array[String]): Unit = {
 
     val sc = new SparkContext(sparkConf)
     //val file = new File(args(0) + "_output.txt")
-    val veriskFile = sc.textFile("C:\\Users\\gh0ipon\\Desktop\\UBI\\verisk\\20180604_UBI_Score_CSAA.csv")
+    val veriskFile = sc.textFile("C:\\Users\\gh0ipon\\Desktop\\verisk\\20180820_UBI_Score_CSAA.csv")
     val bw = new BufferedWriter(new FileWriter(file))
     val mapArray = sc.broadcast(veriskMap)
     //val veriskFile = sc.textFile(args(0))

@@ -2,6 +2,7 @@
   * Created by gh0ipon on 2018-04-16.
   */
 
+package com.csaa.ati
 
 import com.csaa.ati.core.sonatinaRules._
 import com.csaa.ati.core.sonatinaTools._
@@ -20,14 +21,12 @@ import com.csaa.ati.core.sonatinaTools.stringToArray
 
 import com.csaa.ati.services.veriskValidator.{sparkConf, track, veriskMap}
 
-object test {
-  def main(args: Array[String]): Unit = {
-    println(validOctoTimeStamp("2017-11-16 02:16:45.000"))
-    println(validOctoTimeStamp("2012-11-16 02:16:45.000"))
-    println(validOctoTimeStamp("2019-11-16 02:16:45.000"))
+import org.scalatest.FunSuite
 
-    println(validOctoTimeStamp("2018-06-10 00:34:04.000"))
-
-    println(validOctoTimeStamp("2019-11-16"))
+class test extends FunSuite {
+  test("check between integer function"){
+    assert(betweenInt(15,0,7)==true)
+    assert(betweenInt(8934,7654,1000232)==false)
   }
+
 }
